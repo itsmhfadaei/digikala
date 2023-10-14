@@ -1,0 +1,97 @@
+div.super-offer {
+  width: 85%;
+  overflow: auto;
+  height: 110px;
+  margin: 15px auto;
+  border-radius: 15px;
+}
+div.super-offer > div.rightso {
+  width: 45%;
+  height: inherit;
+  background-color: #eef1f0;
+  float: right;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: right;
+  align-items: center;
+}
+div.super-offer > div.rightso > img:nth-of-type(1) {
+  width: 66px;
+  height: 62px;
+  margin-right: 45px;
+}
+div.super-offer > div.rightso > img:nth-of-type(2) {
+  width: 250px;
+  height: 28px;
+  margin-right: 15px;
+}
+div.super-offer > div.rightso > div.text {
+  width: 113px;
+  height: 28px;
+  text-align: center;
+  margin-right: 15px;
+  background-color: #39ae00;
+  line-height: 28px;
+  color: white;
+  border-radius: 20px;
+  padding: 0px 5px;
+  font-family: yekan;
+  font-size: 14px;
+}
+div.super-offer > div.leftso {
+  background: url("../../images/supper-offer/freshPattern.svg") no-repeat;
+  background-size: contain;
+  width: 55%;
+  height: inherit;
+  float: left;
+  background-color: #eef1f0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding-left: 15px;
+}
+div.super-offer > div.leftso > figure {
+  width: 74px;
+  height: 74px;
+  position: relative;
+}
+div.super-offer > div.leftso > figure > img {
+  border-radius: 50%;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  outline: 7px solid white;
+}
+div.super-offer > div.leftso >div{
+  width: 150px;
+  height: 60px;
+  background-color: white;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 60px;
+  font-family: yekan;
+  color: #39ae00;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 20px;
+  
+}
+div.super-offer > div.leftso >div>i{
+  margin-right: 10px;
+}
+div.super-offer > div.leftso > figure>div.takhfif{
+  width: 30px;
+  height: 20px;
+  background-color: crimson;
+  position: absolute;
+  border-radius: 15px;
+  font-family: yekan;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  bottom: -7px;
+  right: -7px;
+  line-height: 20px;
+}

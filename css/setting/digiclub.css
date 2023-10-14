@@ -1,0 +1,50 @@
+div.digiclub {
+  width: 85%;
+  height: 100px;
+  background:linear-gradient(to left,#007295,#35A6C8);
+  margin: 0 auto;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-top: -10px;
+  padding-left: 15px;
+}
+div.digiclub > div.logoclub {
+  width: 35%;
+  padding: 30px;
+}
+div.digiclub > div.photos-club {
+  width: 65%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+div.digiclub > div.photos-club > div.photo-club {
+  width: 33%;
+  height: 70px;
+  background-color: #fff;
+  margin-left: 10px;
+  
+}
+div.digiclub > div.photos-club > div.photo-club:nth-of-type(1){border-radius: 0 8px 8px 0;}
+div.digiclub > div.photos-club > div.photo-club:nth-of-type(3){ border-radius: 8px 0 0 8px;}
+div.digiclub > div.photos-club > div.photo-club > a {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+div.digiclub > div.photos-club > div.photo-club > a > h4 {
+  display: inline-block;
+}
+div.digiclub > div.photos-club > div.photo-club > a > img {
+  width: 190px;
+  height: inherit;
+}

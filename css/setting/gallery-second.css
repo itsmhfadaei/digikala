@@ -1,0 +1,76 @@
+div.gallery-second{
+    width: 85%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start ;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+}
+div.gallery-second>div.gallery-parent{
+    width: 25%;
+    height: inherit;
+    border-left: 1px solid lightgray;
+}
+div.gallery-second>div.gallery-parent:nth-last-child(1){
+border-left: unset;
+
+}
+div.gallery-second>div.gallery-parent>h3{
+    font-family: yekan;
+    padding-right: 20px;
+    padding-top:15px;
+}
+div.gallery-second>div.gallery-parent>h5{
+    font-family: yekan;
+    padding-right: 20px;
+    color: grey;
+    margin-bottom: 20px;
+}
+div.gallery-second>div.gallery-parent>div.child-holder{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+ 
+}
+div.gallery-second>div.gallery-parent>div.child-holder>div.gallery-child{
+    width: 40%;
+    height: auto;
+    border-left: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    padding: 10px;
+}
+div.gallery-second>div.gallery-parent>div.child-holder>div.gallery-child:nth-of-type(2),
+div.gallery-second>div.gallery-parent>div.child-holder>div.gallery-child:nth-of-type(4){
+    border-left: unset;
+}
+div.gallery-second>div.gallery-parent>div.child-holder>div.gallery-child:nth-of-type(2),
+div.gallery-second>div.gallery-parent>div.child-holder>div.gallery-child:nth-of-type(1){
+    border-top: unset;
+}
+div.gallery-second>div.gallery-parent>div.child-holder>div.gallery-child>a{
+    display: inline-block;
+    width: 100%;
+   
+   
+}
+div.gallery-second>div.gallery-parent>div.child-holder>div.gallery-child>a>img{
+    width: 100%;
+   
+    object-fit: cover;
+}
+div.gallery-second>div.gallery-parent>div.more{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 20px 0;
+    color: aqua;
+}
+div.gallery-second>div.gallery-parent>div.more>span{
+    font-family: yekan;
+    color: aqua;
+}

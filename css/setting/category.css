@@ -1,0 +1,40 @@
+div.category {
+  width: 85%;
+  height: auto;
+  margin: 40px auto;
+  /* background-color: aqua; */
+}
+div.category > h3 {
+  font-family: yekan;
+  text-align: center;
+}
+div.category > div.cate-parent {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-align: center;
+}
+
+div.category > div.cate-parent>div.cate-child {
+  width: 14.28%;
+  height: 210px;
+  margin-right:10px ;
+  margin-bottom: 80px;
+  font-family: yekan;
+  /* background-color: pink; */
+}
+div.category > div.cate-parent>div.cate-child > a {
+  display: inline-block;
+  width: 100%;
+  height: inherit;
+  text-decoration: none;
+  color: black;
+}
+div.category > div.cate-parent>div.cate-child > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,177 @@
+div.offer {
+  width: 100%;
+  height: 350px;
+
+  
+}
+div.offer > div.center {
+  width: 85%;
+  height: inherit;
+  background-color: #ef4056;
+  margin:0 auto;
+  padding: 27px 5px;
+  border-radius: 15px;
+}
+
+div.offer > div.center > div.myoffer > div.swiper-wrapper > div.swiper-slide {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  height: 300px;
+ 
+}
+div.offer
+  > div.center
+  > div.myoffer
+  > div.swiper-wrapper
+  > div.swiper-slide:nth-of-type(1) {
+  background-color: transparent;
+  width: 200px;
+  height: inherit;
+  display: flex;
+  flex-flow: column nowrap;
+}
+div.offer
+  > div.center
+  > div.myoffer
+  > div.swiper-wrapper
+  > div.swiper-slide:nth-of-type(2) {
+  border-radius: 0 10px 10px 0;
+}
+
+div.offer
+  > div.center
+  > div.myoffer
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.svg {
+  width: 92px;
+
+  height: 77px;
+}
+div.offer
+  > div.center
+  > div.myoffer
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.svg
+  > svg {
+  width: 100%;
+  
+}
+div.offer
+  > div.center
+  > div.myoffer
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.imgbox {
+  width: 145px;
+
+  height: 115px;
+  margin-top: 30px;
+}
+div.offer
+  > div.center
+  > div.myoffer
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.imgbox
+  > img {
+  width: 100%;
+}
+div.offer
+  > div.center
+  > div.myoffer
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.text {
+  width: 95px;
+  height: 30px;
+  color: white;
+
+  font-family: yekan;
+  font-size: 14px;
+  /* background-color: blue; */
+  margin-top: 20px ;
+}
+div.offer
+  > div.center
+  > div.myoffer
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.text
+  > span {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  margin-right: 5px;
+}
+.myoffer div.swiper-slide > div.image {
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.myoffer div.swiper-slide > div.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.myoffer div.swiper-slide div.offcost {
+  width: 100%;
+  height: 30px;
+  /* background-color: pink; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.myoffer div.swiper-slide div.offcost div.tl {
+  padding-left: 25px;
+  width: 50%;
+  /* background-color: yellow; */
+}
+.myoffer div.swiper-slide div.offcost div.tr {
+  padding-right: 25px;
+  padding-top: 2px;
+  width: 50%;
+  /* background-color: orange; */
+}
+.myoffer div.swiper-slide div.offcost div.tr div{
+  width: 40px;
+  height: 25px;
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 25px;
+  padding:0 2px;
+  font-size: 14px;
+  color: white;
+  
+}
+.myoffer div.swiper-slide div.realcost{
+  text-decoration: line-through;
+  /* background-color: blueviolet; */
+color: lightgray; 
+margin-left: -60px;
+margin-top: 20px;
+}
+div.myoffer>div.swiper-button-next,div.myoffer>div.swiper-button-prev{
+  
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+  transform: translateY(50%);
+  position: absolute;
+  top: calc(50% - 40px /2);
+
+}
+div.myoffer>div.swiper-button-next::after,div.myoffer>div.swiper-button-prev::after{
+  font-size: 15px;
+  font-weight: bolder;color:grey;
+}

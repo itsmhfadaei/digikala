@@ -1,0 +1,28 @@
+div.sub-favorites{
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:  space-between;
+    margin: 50px auto;
+
+}
+div.sub-favorites>div{
+    width: 49%;
+    height: inherit;
+    /* background-color: black; */
+    text-align: center;
+    margin-left: 15px
+    
+}
+div.sub-favorites>div>a{
+    width: 100%;   
+    height: 280px;
+    display: inline-block;
+}
+div.sub-favorites>div>a>img{
+    width:inherit;
+    height: inherit;
+    border-radius: 15px;
+    
+}

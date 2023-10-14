@@ -1,0 +1,346 @@
+div.footer {
+  width: 98%;
+  height: auto;
+  margin: 0 auto;
+  border-top: 1px solid lightgray;
+  margin-top: 60px;
+  /* background-color: pink; */
+}
+div.footer > div.footer-first > div.footer-logo {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 15px;
+  /* background-color: yellow; */
+}
+/* div.footer>div.footer-first>div.footer-logo>div.logo{
+   
+} */
+/* div.footer>div.footer-first>div.footer-logo>div.logo>svg{
+
+} */
+div.footer > div.footer-first > div.footer-logo > button {
+  all: unset;
+  width: 145px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  /* margin-left: 10px; */
+}
+div.footer > div.footer-first > div.footer-logo > button > a {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: lightslategrey;
+  font-weight: bolder;
+  font-size: 16px;
+  font-family: yekan;
+  /* background-color: aqua; */
+  border-radius: 10px;
+}
+
+div.footer > div.footer-first > div.footer-suport {
+  width: 100%;
+  padding: 15px;
+}
+div.footer > div.footer-first > div.footer-services {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+div.footer > div.footer-first > div.footer-services > div.servic-box {
+  width: 20%;
+  text-align: center;
+}
+div.footer > div.footer-first > div.footer-services > div.servic-box > a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+div.footer > div.footer-first > div.footer-services > div.servic-box > a > img {
+  width: 25%;
+  object-fit: cover;
+}
+div.footer > div.footer-first > div.footer-cotactus {
+  width: 100%;
+  /* background-color: green; */
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+div.footer > div.footer-first > div.footer-cotactus > div.withdigi {
+  width: 25%;
+  /* background-color: yellow; */
+  padding-right: 20px;
+}
+div.footer
+  > div.footer-first
+  > div.footer-cotactus
+  > div.withdigi:nth-last-child() {
+  width: 20%;
+  /* background-color: blue; */
+}
+div.footer > div.footer-first > div.footer-cotactus > div.withdigi > p {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+div.footer > div.footer-first > div.footer-cotactus > div.withdigi > a {
+  display: block;
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 15px;
+}
+div.footer
+  > div.footer-first
+  > div.footer-cotactus
+  > div.withdigi
+  > div.social {
+  width: 100%;
+  /* background-color:lightblue; */
+}
+div.footer
+  > div.footer-first
+  > div.footer-cotactus
+  > div.withdigi
+  > div.social
+  > h4 {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+div.footer
+  > div.footer-first
+  > div.footer-cotactus
+  > div.withdigi
+  > div.social
+  > div.social-icon {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  gap: 30px;
+}
+div.footer
+  > div.footer-first
+  > div.footer-cotactus
+  > div.withdigi
+  > div.social
+  > div.social-icon
+  > a {
+  text-decoration: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  /* background-color: lightpink; */
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 20px 0;
+  color: lightgray;
+}
+div.footer
+  > div.footer-first
+  > div.footer-cotactus
+  > div.withdigi
+  > div.social
+  > form {
+  width: 100%;
+  /* background-color: limegreen; */
+  height: 50px;
+}
+div.footer
+  > div.footer-first
+  > div.footer-cotactus
+  > div.withdigi
+  > div.social
+  > form
+  > input[type="email"] {
+  width: 262px;
+  height: 100%;
+  background-color: rgb(236, 235, 235);
+  border: unset;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+div.footer
+  > div.footer-first
+  > div.footer-cotactus
+  > div.withdigi
+  > div.social
+  > form
+  > input[type="email"]::placeholder {
+  font-size: 16px;
+  font-family: yekan;
+}
+div.footer
+  > div.footer-first
+  > div.footer-cotactus
+  > div.withdigi
+  > div.social
+  > form
+  > input[type="submit"] {
+  width: 63px;
+  height: 100%;
+  font-size: 16px;
+  font-family: yekan;
+  background-color: #E0E0E6;
+  color: white;
+  border: unset;
+  border-radius: 10px;
+  cursor: pointer;
+}
+div.footer > div.footer-second {
+  width: 100%;
+  height: 80px;
+  padding: 8px 20px;
+  background-color: #3c4b6d;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  margin-top: 50px;
+}
+div.footer > div.footer-second > div.second-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+}
+div.footer > div.footer-second > div.second-right > img {
+  width: 54px;
+  height: 54px;
+  margin-left: 20px;
+}
+div.footer > div.footer-second > div.second-right > h2 {
+  color: white;
+}
+div.footer > div.footer-second > div.second-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+  align-items: center;
+  /* background-color: pink; */
+  gap: 10px;
+}
+div.footer > div.footer-second > div.second-left > a {
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+  height: 44px;
+}
+div.footer > div.footer-second > div.second-left > a > img {
+  width: 100%;
+}
+div.footer > div.footer-second > div.second-left > a:nth-of-type(4) {
+  all: unset;
+  background-color: white;
+  width: 44px;
+  height: 44px;
+}
+div.footer > div.footer-third {
+  margin-top: 60px;
+  border-top: 1px solid lightgray;
+  padding-top: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 60px;
+}
+div.footer > div.footer-third > div.third-right {
+  width: 70%;
+}
+div.footer > div.footer-third > div.third-right > h1 {
+  color: #525252;
+}
+div.footer > div.footer-third > div.third-right > p {
+  color: gray;
+}
+div.footer > div.footer-third > div.third-right > h2 {
+  color: lightgray;
+}
+
+div.footer > div.footer-third > div.third-right > details > summary {
+  color: #19bfd3;
+}
+div.footer > div.footer-third > div.third-right > details > summary > span {
+  color: #19bfd3;
+}
+div.footer > div.footer-third > div.third-right > details > p {
+  color: gray;
+}
+div.footer > div.footer-third > div.third-left {
+  width: 30%;
+  /* background-color: pink; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  gap: 5px;
+}
+div.footer > div.footer-third > div.third-left > div.mark {
+  border: 1px solid lightgray;
+  width: 120px;
+  height: 120px;
+
+  border-radius: 10px;
+}
+div.footer > div.footer-third > div.third-left > div.mark > a {
+  width: 100%;
+  height: inherit;
+  /* background-color: yellow; */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+div.footer > div.footer-third > div.third-left > div.mark > a > img {
+  width: 85px;
+  height: 85px;
+}
+div.footer > div.footer-fourth {
+  color: gray;
+  text-align: center;
+  margin: 40px 0;
+}
+div.footer > div.footer-fifth {
+  width: 100%;
+  height: auto;
+  background-color: #19bfd3;
+  display: flex;
+  flex-flow: row wrap;
+}
+div.footer > div.footer-fifth > div.brand {
+    width: 11.1111%;
+    height: 80px;
+    padding: 0 20px;
+    background-color: #F1F2F4;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+div.footer > div.footer-fifth > div.brand > a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+}
+div.footer > div.footer-fifth > div.brand > a > img {
+    width: 85%;
+    object-fit: contain;
+
+}

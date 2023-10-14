@@ -1,0 +1,13 @@
+div.sub-bestseller{
+    width: 85%;
+    margin: 0 auto;
+   
+   
+}
+div.sub-bestseller>a{
+    
+}
+div.sub-bestseller>a>img{
+    width: 100%;
+    border-radius: 30px;
+}

@@ -1,0 +1,107 @@
+div.best-sellers {
+  width: 85%;
+  height: auto;
+  /* background-color: pink; */
+  margin: 30px auto;
+  border: 1px solid lightgray;
+  border-radius: 35px;
+}
+div.best-sellers > div.seller-top {
+  height: 45px;
+
+  position: relative;
+  margin: 10px 0;
+}
+div.best-sellers > div.seller-top > h2 {
+  width: 300px;
+  height: inherit;
+  text-align: center;
+  position: absolute;
+  left: calc(50% - 150px);
+  display: inline-block;
+  /* background-color: orange; */
+}
+div.best-sellers > div.seller-top > a {
+  height: inherit;
+  line-height: 45px;
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  /* background-color: yellow; */
+  text-decoration: none;
+  color: #19bfd3;
+  font-weight: bolder;
+}
+div.best-sellers > div.seller-bottom {
+  width: 100%;
+  height: 380px;
+  /* background-color: deeppink; */
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 5px;
+}
+div.best-sellers > div.seller-bottom > div.seller-box {
+  width: 25%;
+  /* background-color: lightsalmon; */
+  /* padding: 10px; */
+}
+div.best-sellers > div.seller-bottom > div.seller-box > div.box-cell {
+  width: 100%;
+  height: 86px;
+  margin: 30px 0;
+}
+
+div.best-sellers > div.seller-bottom > div.seller-box > div.box-cell > a {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  /* background-color: lightskyblue; */
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+div.best-sellers
+  > div.seller-bottom
+  > div.seller-box
+  > div.box-cell
+  > a
+  > div.image {
+  width: 100px;
+  height: 100%;
+}
+div.best-sellers
+  > div.seller-bottom
+  > div.seller-box
+  > div.box-cell
+  > a
+  > div.image
+  > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+div.best-sellers > div.seller-bottom > div.seller-box > div.box-cell > a > h2 {
+  /* background-color: crimson; */
+  height: 86px;
+  width: 25px;
+  line-height: 86px;
+  color: #19bfd3;
+  font-weight: bolder;
+  text-align: center;
+}
+div.best-sellers
+  > div.seller-bottom
+  > div.seller-box
+  > div.box-cell
+  > a
+  > p {
+  border-bottom: 1px solid rgb(225, 223, 223);
+  line-height: 86px;
+}
+div.best-sellers
+  > div.seller-bottom
+  > div.seller-box
+  > div.box-cell:nth-of-type(3)>a>p{
+    border-bottom: unset ;
+  }
